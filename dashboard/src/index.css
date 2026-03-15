@@ -1,0 +1,40 @@
+:root {
+  --bg: #0d0f14;
+  --surface: #161a22;
+  --border: #2a3142;
+  --text: #e6e9ef;
+  --text-muted: #8b92a6;
+  --accent: #5b9bd5;
+  --accent-dim: #3d6b94;
+  --success: #6bbf8a;
+  --warning: #e5b567;
+  --error: #d47766;
+  --radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+code, .mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9em;
+}
