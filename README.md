@@ -1,6 +1,18 @@
-# CTO Assignment: Smart Router Enterprise Readiness
+# Lava Smart Router Enterprise Readiness Assessment
 
 This folder contains all deliverables for the Magma CTO assignment (Parts 1 and 2).
+
+## Scope
+
+This assessment is based on publicly available Lava repositories and documentation.
+The focus is enterprise readiness for custodians, exchanges, and wallet infrastructure providers,
+with emphasis on reliability, failure isolation, and observability.
+
+## Quick Review Guide
+
+1. Read the presentation slides for the 10-minute summary
+2. Review the technical assessment PDF
+3. Open the dashboard screenshots or run the dashboard locally
 
 ## Part 1 — Technical & Enterprise Assessment
 
